@@ -1,0 +1,36 @@
+
+
+
+def lcm(a, b):
+    return abs(a * b) 
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+print("LCM:", lcm(a, b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Explanation: The LCM is calculated using the formula 
+# lcm(a, b) = abs(a*b) / gcd(a, b).
